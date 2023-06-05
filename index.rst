@@ -84,17 +84,16 @@ WeBankBlockchain-DDCMS-Docs 技术文档
         - `Github地址 <https://github.com/WeBankBlockchain/Data-Brain-Front>`_ 
         - `Gitee地址 <https://gitee.com/WeBankBlockchain/Data-Brain-Front>`_
 
-
 .. toctree::
    :hidden:
-   :maxdepth: 4
-   :caption: 如何使用
+   :maxdepth: 3
+
    ./docs/quickstart.md
    ./docs/DDCMS-Contract/index.md
    ./docs/DDCMS-Server/index.md
    ./docs/DDCMS-Front/index.md
-
 .. 
+
 
 
  
