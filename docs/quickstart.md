@@ -9,13 +9,6 @@ DDCMS由三个子项目构成：DDCMS-Contract、DDCMS-Server、DDCMS-Front。
 
 ## 环境要求
 
-| 依赖软件 | 说明 |备注|
-| --- | --- | --- |
-| FISCO-BCOS | >= 2.7.1 | 需要为节点开启binlog选项|
-| MySQL | >= mysql-community-server[5.7] | |
-| Nginx | >= nginx[1.17.3]| |
-| Java | JDK[1.8] | |
-| Git | 下载安装包需要使用Git | |
 
 
 | 依赖软件 | 说明 |备注|
