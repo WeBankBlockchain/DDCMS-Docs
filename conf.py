@@ -100,7 +100,7 @@ master_doc = 'index'
 # General information about the project.
 project = u'WeBankBlockchain-DDCMS-Doc'
 copyright = u'© 2020. All rights reserved.'
-author = u'WeBankBlockchain-dev'
+author = u'WeBankBlockchain'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -167,7 +167,7 @@ todo_include_todos = True
 html_context = {
     "display_github": True, # Integrate GitHub
     "github_repo": "DDCMS-Doc", # Repo name
-    "github_user": "blockchain-dev",
+    "github_user": "WeBankBlockchain",
     "github_version": "dev", # Version
     "conf_py_path": "/", # Path in the checkout to the docs root
 }
@@ -303,7 +303,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   (master_doc, 'DDCMS-Doc.tex', u'WeBankBlockchain DDCMS Documentation',
-   u'blockchain-dev', 'manual'),
+   u'WeBankBlockchain', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -347,7 +347,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   (master_doc, 'WeBankBlockchain DDCMS Doc', u'WeBankBlockchain DDCMS Documentation',
-   author, 'blockchain-dev', 'documents of WeBankBlockchain DDCMS',
+   author, 'WeBankBlockchain', 'documents of WeBankBlockchain DDCMS',
    'Miscellaneous'),
 ]
 
