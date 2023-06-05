@@ -22,9 +22,9 @@ Data-Brain由三个子项目构成：Data-Brain-Contract、Data-Brain-Server、D
 
 作为系统运营方，按照以下顺序进行部署：
 
-- 部署合约：见[部署合约](./docs/DDCMS-Contract/index.md)
-- 启动后端：见[启动后端](./docs/DDCMS-Server/index.md)
-- 启动前端：见[启动前端](./docs/DDCMS-Front/index.md)
+- 部署合约：见[部署合约](DDCMS-Contract/index.md)
+- 启动后端：见[启动后端](DDCMS-Server/index.md)
+- 启动前端：见[启动前端](DDCMS-Front/index.md)
 
 
 启动后，默认情况下，可以在浏览器看到如下页面：
