@@ -25,7 +25,7 @@ Data-Brain由三个子项目构成：Data-Brain-Contract、Data-Brain-Server、D
 
 
 启动后，默认情况喜爱，可以在浏览器看到如下页面：
-![](./images/start.png)
+![](../images/start.png)
 
 
 ## 使用流程
@@ -36,7 +36,7 @@ Data-Brain由三个子项目构成：Data-Brain-Contract、Data-Brain-Server、D
 
 可以使用“注册功能”，以数据提供方身份注册账户：
 
-![](./images/register.png)
+![](../images/register.png)
 
 注意，注册之后，还需要系统运营方进行审核。
 
@@ -45,25 +45,25 @@ Data-Brain由三个子项目构成：Data-Brain-Contract、Data-Brain-Server、D
 
 登陆后，会自动跳转到管理台，用户可以在这里看到对应的待审核账户：
 
-![](./images/audit.png)
+![](../images/audit.png)
 
 ### 创建业务
 
 审核通过后，用户可以提供方机构身份登陆，创建一个新的业务：
 
-![](./images/product.png)
+![](../images/product.png)
 
 ### 注册见证机构
 
 用户要再注册两个见证机构，注册页面勾选“见证机构”：
 
-![](./images/registerwitness.png)
+![](../images/registerwitness.png)
 
 ### 审核业务
 
 用户现在可以以见证机构的账户登陆，登陆后自动跳转到管理台，随后可在“所有业务”中看到待申请的业务：
 
-![](./images/productaudit.png)
+![](../images/productaudit.png)
 
 
 由于审核需要超过半数的见证机构投票，因此在两家见证机构的场景下，投票要两个机构都进行同意，才算审核通过。
@@ -72,16 +72,16 @@ Data-Brain由三个子项目构成：Data-Brain-Contract、Data-Brain-Server、D
 
 类似地，数据提供方可以注册数据目录：
 
-![](./images/createschema.png)
+![](../images/createschema.png)
 
 
-![](./images/createschema2.png)
+![](../images/createschema2.png)
 
 ### 审核数据目录
 
 同样，见证机构可以对数据目录进行审核。
 
-![](./images/schemaaudit.png)
+![](../images/schemaaudit.png)
 
 由于审核需要超过半数的见证机构投票，因此在两家见证机构的场景下，投票要两个机构都进行同意，才算审核通过。
 
@@ -89,4 +89,4 @@ Data-Brain由三个子项目构成：Data-Brain-Contract、Data-Brain-Server、D
 
 数据产品审核通过后，即可在首页看到：
 
-![](./images/main2.png)
+![](../images/main2.png)
