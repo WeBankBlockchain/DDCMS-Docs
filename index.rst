@@ -45,7 +45,7 @@ WeBankBlockchain-DDCMS-Docs 技术文档
     - 系统运营方：负责对各参与方进行KYC，确保参与方可信可靠。
 
 .. image:: images/roles.png
-
+    :align: center
 .. admonition:: 核心概念
 
     在DDCMS中，从数据的角度而言，包括三个概念：数据提供方、数据归属业务、数据目录.
