@@ -24,7 +24,7 @@ Data-Brain由三个子项目构成：Data-Brain-Contract、Data-Brain-Server、D
 - 启动前端：见[启动前端](./docs/Data-Brain-Front/index.md)
 
 
-启动后，默认情况喜爱，可以在浏览器看到如下页面：
+启动后，默认情况下，可以在浏览器看到如下页面：
 ![](../images/start.png)
 
 
