@@ -66,23 +66,13 @@ WeBankBlockchain-DDCMS-Docs 技术文档
     DDCMS目前由三个子工程构成，三个工程共同构建:
 
     - **DDCMS-Contract 合约**
-
     该项目是DDCMS的合约部分，用于对每一个相关操作进行留痕、追溯。目前包含用户管理、业务管理、数据目录管理三个功能。
-    请参考 
-        - `Github地址 <https://github.com/WeBankBlockchain/Data-Brain-Contract>`_ 
-        - `Gitee地址 <https://gitee.com/WeBankBlockchain/Data-Brain-Contract>`_
 
     - **DDCMS-Server  后端** 
-
     该项目是DDCMS的后端API，用于支持前端请求。
-        - `Github地址 <https://github.com/WeBankBlockchain/Data-Brain-Server>`_ 
-        - `Gitee地址 <https://gitee.com/WeBankBlockchain/Data-Brain-Server>`_
 
     - **DDCMS-Front 前端**
-
     该项目是DDCMS的前端，用于提供友好的操作界面。
-        - `Github地址 <https://github.com/WeBankBlockchain/Data-Brain-Front>`_ 
-        - `Gitee地址 <https://gitee.com/WeBankBlockchain/Data-Brain-Front>`_
 
 .. toctree::
    :hidden:
