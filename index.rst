@@ -30,7 +30,7 @@ Data Brain由三个核心功能模块构成： 统一可信的数据目录管理
 
 在Data Brain中包括5中角色：数据归属方、数据提供方、数据使用方、数据见证方、系统运营方。
 
-![Data Brain 角色](/images/roles.png)
+.. image:: images/images/roles.png
 
 - 数据归属方：在数据传输共享过程中，对数据使用方的数据请求进行数据授权，在数据提供方进行授权管理。
 - 数据提供方：对外提供数据目录服务，负责审核数据目录使用申请及核验用户授权。
@@ -47,7 +47,8 @@ Data Brain由三个核心功能模块构成： 统一可信的数据目录管理
 
 它们之间的关系，可以用下图描述：
 
-![](/images/org.png)
+.. image:: images/org.png
+
 
 .. admonition:: 组件简介
 
