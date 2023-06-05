@@ -46,19 +46,19 @@ WeBankBlockchain-DDCMS-Docs 技术文档
 
     DDCMS包含三个子工程：
 
-    1) `DDCMS-Contract <https://github.com/WeBankBlockchain/Data-Brain-Contract>`_ 
+    1) `DDCMS-Contract <https://github.com/WeBankBlockchain/DDCMS-Contract>`_ 
 
-    2) `DDCMS-Server <https://github.com/WeBankBlockchain/Data-Brain-Server>`_ 
+    2) `DDCMS-Server <https://github.com/WeBankBlockchain/DDCMS-Server>`_ 
 
-    3) `DDCMS-Front <https://github.com/WeBankBlockchain/Data-Brain-Front>`_ 
+    3) `DDCMS-Front <https://github.com/WeBankBlockchain/DDCMS-Front>`_ 
 
 
     - **DDCMS-Contract**
 
     DDCMS-Contract是DDCMS的智能合约实现，对接入用户、业务、数据目录等提供链上审核及管理等能力。地址：
 
-        - `github地址 <https://github.com/WeBankBlockchain/Data-Brain-Contract>`_ 
-        - `gitee地址 <https://gitee.com/WeBankBlockchain/Data-Brain-Contract>`_ 
+        - `github地址 <https://github.com/WeBankBlockchain/DDCMS-Contract>`_ 
+        - `gitee地址 <https://gitee.com/WeBankBlockchain/DDCMS-Contract>`_ 
 
     
     - **DDCMS-Server**
@@ -66,15 +66,15 @@ WeBankBlockchain-DDCMS-Docs 技术文档
     DDCMS-Service是DDCMS的后端工程，采用JAVA编写，提供和DDCMS-Contract的交互能力及账户、业务、数据目录的管理能力。地址：
 
 
-        - `github地址 <https://github.com/WeBankBlockchain/Data-Brain-Server>`_ 
-        - `gitee地址 <https://gitee.com/WeBankBlockchain/Data-Brain-Server>`_ 
+        - `github地址 <https://github.com/WeBankBlockchain/DDCMS-Server>`_ 
+        - `gitee地址 <https://gitee.com/WeBankBlockchain/DDCMS-Server>`_ 
 
     - **DDCMS-Front**
 
-    DDCMSn-Front是一个前端项目，采用React编写，提供可视化注册、登录、业务注册、审核、数据目录注册、审核、展示、查看及管理等功能。地址：
+    DDCMS-Front是一个前端项目，采用React编写，提供可视化注册、登录、业务注册、审核、数据目录注册、审核、展示、查看及管理等功能。地址：
 
-        - `github地址 <https://github.com/WeBankBlockchain/Data-Brain-Front>`_ 
-        - `gitee地址 <https://gitee.com/WeBankBlockchain/Data-Brain-Front>`_ 
+        - `github地址 <https://github.com/WeBankBlockchain/DDCMS-Front>`_ 
+        - `gitee地址 <https://gitee.com/WeBankBlockchain/DDCMS-Front>`_ 
 
 
 .. toctree::
