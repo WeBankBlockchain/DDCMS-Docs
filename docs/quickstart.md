@@ -14,9 +14,9 @@ DDCMS由三个子项目构成：DDCMS-Contract、DDCMS-Server、DDCMS-Front。
 | 依赖软件 | 说明 |备注|
 | --- | --- | --- |
 | FISCO BCOS | 安装FISCO BCOS 3.0链及控制台/webase | |
-| Java |>= JDK[1.8] | 64bit|
+| Java |>= JDK1.8 | 64bit|
 | NodeJs |>= 14| |
-| MySQL | >= mysql-community-server[5.7] | |
+| MySQL | >= mysql-community-server5.7 | |
 | Git | 下载安装包需要使用Git | |
 
 
