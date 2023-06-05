@@ -30,8 +30,7 @@ DDCMS由三个子项目构成：DDCMS-Contract、DDCMS-Server、DDCMS-Front。
 - 启动前端：见[启动前端](./DDCMS-Front/index.md)
 
 
-启动后，默认情况下，可以在浏览器看到如下页面：
-![](../images/start.png)
+启动后，默认情况下，可以访问[](http://localhost:3000)访问首页。
 
 
 ## 使用流程
@@ -47,7 +46,7 @@ DDCMS由三个子项目构成：DDCMS-Contract、DDCMS-Server、DDCMS-Front。
 注意，注册之后，还需要系统运营方进行审核。
 
 ### 审核账户
-用户需要以系统运营方账户登陆，初始密码取决于后端的[配置]（(./docs/Data-Brain-Server/index.md)）。默认账户和密码为admin、123456。
+用户需要以系统运营方账户登陆，初始密码取决于后端的[配置](./DDCMS-Server/index.md)。默认账户和密码为admin、123456。
 
 登陆后，会自动跳转到管理台，用户可以在这里看到对应的待审核账户：
 
@@ -93,6 +92,4 @@ DDCMS由三个子项目构成：DDCMS-Contract、DDCMS-Server、DDCMS-Front。
 
 ### 查看
 
-数据产品审核通过后，即可在首页看到：
-
-![](../images/main2.png)
+数据产品审核通过后，即可在首页看到。
