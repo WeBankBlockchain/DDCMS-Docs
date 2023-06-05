@@ -1,8 +1,8 @@
 ##############################################################
-WeBankBlockchain-Data-Brain-Docs 技术文档
+WeBankBlockchain-DDCMS-Docs 技术文档
 ##############################################################
 
-.. admonition:: 什么是 WeBankBlockchain-Data-Brain
+.. admonition:: 什么是 WeBankBlockchain-DDCMS
 
 数据要素已成为数字经济时代最核心的生产要素，各种数据共享和交易解决方案不断出现，极大的推动了产业数字化的落地和发展。但由于缺乏统一可信的数据发布管理能力、数据传输的不透明不安全等已经无法满足日益增长的数字产业需求。
 

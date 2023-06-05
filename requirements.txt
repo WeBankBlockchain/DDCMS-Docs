@@ -1,5 +1,5 @@
 docutils == 0.12
-sphinx == 2.2.0
+sphinx == 2.4.0
 sphinx-rtd-theme == 0.4.3
 sphinx-copybutton == 0.2.6
 sphinx-version-warning == 1.1.2
