@@ -29,15 +29,15 @@ WeBankBlockchain-DDCMS-Docs 技术文档
 
     DDCMS包括三个功能模块：统一可信的数据目录管理、可追溯审计的数据传输过程管理、丰富安全的数据处理组件管理。**当前仅开源统一可信的数据目录管理模块。**
 
-    **统一可信的数据目录管理**
+    - **统一可信的数据目录管理**
 
     提供统一的数据目录管理功能，所有操作均上链存证，确保数据目录可信，提升管理和运营效率，降低接入成本。
 
-    **可追溯审计的数据传输过程管理**
+    - **可追溯审计的数据传输过程管理**
 
     每次数据的传输过程均会记录上链，确保数据流通的定量、定时、定场景，实现全流程可管理可追溯可监管审计。
 
-    **丰富安全的数据处理组件管理**
+    - **丰富安全的数据处理组件管理**
 
     提供对各种数据处理组件的管理能力，企业可按需接入和使用，避免二次开发、降低接入和使用成本
 
@@ -46,31 +46,41 @@ WeBankBlockchain-DDCMS-Docs 技术文档
 
     DDCMS包含三个子工程：
 
-    - [DDCMS-Contract](https://github.com/WeBankBlockchain/Data-Brain-Contract)
-    - [DDCMS-Server](https://github.com/WeBankBlockchain/Data-Brain-Server)
-    - [DDCMS-Front](https://github.com/WeBankBlockchain/Data-Brain-Front)
+    1) `DDCMS-Contract <https://github.com/WeBankBlockchain/Data-Brain-Contract>`_ 
 
-    **DDCMS-Contract**
+    2) `DDCMS-Server <https://github.com/WeBankBlockchain/Data-Brain-Server>`_ 
+    
+    3) `DDCMS-Front <https://github.com/WeBankBlockchain/Data-Brain-Front>`_ 
+
+
+    - **DDCMS-Contract**
 
     DDCMS-Contract是DDCMS的智能合约实现，对接入用户、业务、数据目录等提供链上审核及管理等能力。
 
-    - [Github地址](https://github.com/WeBankBlockchain/Data-Brain-Contract)
-    - [Gitee地址](https://gitee.com/WeBankBlockchain/Data-Brain-Contract)
+    `github地址 <https://github.com/WeBankBlockchain/Data-Brain-Contract>`_ 
+
+    `gitee地址 <https://gitee.com/WeBankBlockchain/Data-Brain-Contract>`_ 
+
     
-    **DDCMS-Server**
+    - **DDCMS-Server**
 
     DDCMS-Service是DDCMS的后端工程，采用JAVA编写，提供和DDCMS-Contract的交互能力及账户、业务、数据目录的管理能力。
 
-    - [Github地址](https://github.com/WeBankBlockchain/Data-Brain-Server)
-    - [Gitee地址](https://gitee.com/WeBankBlockchain/Data-Brain-Server)
 
-    **DDCMS-Front**
+    `github地址 <https://github.com/WeBankBlockchain/Data-Brain-Server>`_ 
+    
+    `gitee地址 <https://gitee.com/WeBankBlockchain/Data-Brain-Server>`_ 
+
+    - **DDCMS-Front**
 
     DDCMSn-Front是一个前端项目，采用React编写，提供可视化注册、登录、业务注册、审核、数据目录注册、审核、展示、查看及管理等功能。
 
-    - [Github地址](https://github.com/WeBankBlockchain/Data-Brain-Front)
-    - [Gitee地址](https://gitee.com/WeBankBlockchain/Data-Brain-Front)
+
+    `github地址 <https://github.com/WeBankBlockchain/Data-Brain-Front>`_ 
     
+    `gitee地址 <https://gitee.com/WeBankBlockchain/Data-Brain-Front>`_ 
+
+
 .. toctree::
    :hidden:
    :maxdepth: 3
