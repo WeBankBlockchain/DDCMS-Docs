@@ -10,18 +10,21 @@ Data-Brain由三个子项目构成：Data-Brain-Contract、Data-Brain-Server、D
 ## 环境要求
 | 依赖软件 | 说明 |备注|
 | --- | --- | --- |
+| FISCO BCOS | 安装FISCO BCOS 3.0链及控制台/webase | |
 | Java |>= JDK[1.8] | 64bit|
 | NodeJs |>= 14| |
+| MySQL | >= mysql-community-server[5.7] | |
 | Git | 下载安装包需要使用Git | |
-| FISCO BCOS | 安装FISCO BCOS 3.0链及控制台/webase | |
+
+
 
 ## 部署项目
 
 作为系统运营方，按照以下顺序进行部署：
 
-- 部署合约：见[部署合约](./docs/Data-Brain-Contract/index.md)
-- 启动后端：见[启动后端](./docs/Data-Brain-Server/index.md)
-- 启动前端：见[启动前端](./docs/Data-Brain-Front/index.md)
+- 部署合约：见[部署合约](./docs/Data-Brain-Contract/index.html)
+- 启动后端：见[启动后端](./docs/Data-Brain-Server/index.html)
+- 启动前端：见[启动前端](./docs/Data-Brain-Front/index.html)
 
 
 启动后，默认情况下，可以在浏览器看到如下页面：
