@@ -1,13 +1,23 @@
 # 快速开始
 
-Data-Brain由三个子项目构成：Data-Brain-Contract、Data-Brain-Server、Data-Brain-Front。
-- Data-Brain-Contract：提供项目的智能合约，将会部署在FISCO BCOS上，它包含了数据目录管理、数据传输管理的留痕存证功能。
-- Data-Brain-Server：项目的后台服务器，用于支持前端。
-- Data-Brain-Front：项目的前端。
+DDCMS由三个子项目构成：DDCMS-Contract、DDCMS-Server、DDCMS-Front。
+- DDCMS-Contract：提供项目的智能合约，将会部署在FISCO BCOS上，它包含了数据目录管理、数据传输管理的留痕存证功能。
+- DDCMS-Server：项目的后台服务器，用于支持前端。
+- DDCMS-Front：项目的前端。
 
 
 
 ## 环境要求
+
+| 依赖软件 | 说明 |备注|
+| --- | --- | --- |
+| FISCO-BCOS | >= 2.7.1 | 需要为节点开启binlog选项|
+| MySQL | >= mysql-community-server[5.7] | |
+| Nginx | >= nginx[1.17.3]| |
+| Java | JDK[1.8] | |
+| Git | 下载安装包需要使用Git | |
+
+
 | 依赖软件 | 说明 |备注|
 | --- | --- | --- |
 | FISCO BCOS | 安装FISCO BCOS 3.0链及控制台/webase | |
@@ -22,9 +32,9 @@ Data-Brain由三个子项目构成：Data-Brain-Contract、Data-Brain-Server、D
 
 作为系统运营方，按照以下顺序进行部署：
 
-- 部署合约：见[部署合约](DDCMS-Contract/index.md)
-- 启动后端：见[启动后端](DDCMS-Server/index.md)
-- 启动前端：见[启动前端](DDCMS-Front/index.md)
+- 部署合约：见[部署合约](./DDCMS-Contract/index.md)
+- 启动后端：见[启动后端](./DDCMS-Server/index.md)
+- 启动前端：见[启动前端](./DDCMS-Front/index.md)
 
 
 启动后，默认情况下，可以在浏览器看到如下页面：
