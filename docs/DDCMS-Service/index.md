@@ -169,4 +169,4 @@ bash start.sh
 ```
 这条指令会编译代码成springboot jar包，并执行。
 
-创建好后，可以通过[](http://localhost:10880/swagger-ui.html)访问其swagger页面。
+创建好后，可以通过http://localhost:10880/swagger-ui.html 访问其swagger页面。
