@@ -1,8 +1,8 @@
 # 快速开始
 
-DDCMS由三个子项目构成：DDCMS-Contract、DDCMS-Server、DDCMS-Front。
+DDCMS由三个子项目构成：DDCMS-Contract、DDCMS-Service、DDCMS-Front。
 - DDCMS-Contract：提供项目的智能合约，将会部署在FISCO BCOS上，它包含了数据目录管理、数据传输管理的留痕存证功能。
-- DDCMS-Server：项目的后台服务器，用于支持前端。
+- DDCMS-Service：项目的后台服务器，用于支持前端。
 - DDCMS-Front：项目的前端。
 
 
@@ -26,7 +26,7 @@ DDCMS由三个子项目构成：DDCMS-Contract、DDCMS-Server、DDCMS-Front。
 作为系统运营方，按照以下顺序进行部署：
 
 - 部署合约：见[部署合约](./DDCMS-Contract/index.md)
-- 启动后端：见[启动后端](./DDCMS-Server/index.md)
+- 启动后端：见[启动后端](./DDCMS-Service/index.md)
 - 启动前端：见[启动前端](./DDCMS-Front/index.md)
 
 
@@ -46,7 +46,7 @@ DDCMS由三个子项目构成：DDCMS-Contract、DDCMS-Server、DDCMS-Front。
 注意，注册之后，还需要系统运营方进行审核。
 
 ### 审核账户
-用户需要以系统运营方账户登陆，初始密码取决于后端的[配置](./DDCMS-Server/index.md)。默认账户和密码为admin、123456。
+用户需要以系统运营方账户登陆，初始密码取决于后端的[配置](./DDCMS-Service/index.md)。默认账户和密码为admin、123456。
 
 登陆后，会自动跳转到管理台，用户可以在这里看到对应的待审核账户：
 

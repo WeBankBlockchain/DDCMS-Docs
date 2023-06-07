@@ -1,22 +1,22 @@
-# DDCMS-Server
+# DDCMS-Service
 
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 
-DDCMS-Server由系统运营方部署，它负责接收前端传来的请求。从功能而言，它承担了用户管理、业务管理、数据目录管理等功能。
+DDCMS-Service由系统运营方部署，它负责接收前端传来的请求。从功能而言，它承担了用户管理、业务管理、数据目录管理等功能。
 
 
 ## 快速开始
 ### 克隆代码
 ```
-git clone https://github.com/WeBankBlockchain/DDCMS-Server.git
-cd DDCMS-Server
+git clone https://github.com/WeBankBlockchain/DDCMS-Service.git
+cd DDCMS-Service
 git checkout origin/dev
 ```
 
 ### 编译
 
-在DDCMS-Server项目根目录下执行
+在DDCMS-Service项目根目录下执行
 ```
 bash ./gradlew bootJar
 ```
@@ -24,7 +24,7 @@ bash ./gradlew bootJar
 ### 链配置
 由于后端服务需要访问区块链，因此需要先配置链信息，包括证书、sdk配置，这些信息可以直接从sdk里拷贝。
 
-首先拷贝控制台里的证书到DDCMS-Server工程的conf目录下:
+首先拷贝控制台里的证书到DDCMS-Service工程的conf目录下:
 
 ```
 cp [控制台目录]/conf/* dist/config
@@ -157,7 +157,7 @@ swagger:
 
 
 ### 启动
-在DDCMS-Server项目根目录下执行
+在DDCMS-Service项目根目录下执行
 ```
 cd dist
 bash start.sh

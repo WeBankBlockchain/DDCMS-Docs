@@ -48,7 +48,7 @@ WeBankBlockchain-DDCMS-Docs 技术文档
 
     1) `DDCMS-Contract <https://github.com/WeBankBlockchain/DDCMS-Contract>`_ 
 
-    2) `DDCMS-Server <https://github.com/WeBankBlockchain/DDCMS-Server>`_ 
+    2) `DDCMS-Service <https://github.com/WeBankBlockchain/DDCMS-Service>`_ 
 
     3) `DDCMS-Front <https://github.com/WeBankBlockchain/DDCMS-Front>`_ 
 
@@ -61,13 +61,13 @@ WeBankBlockchain-DDCMS-Docs 技术文档
         - `gitee地址 <https://gitee.com/WeBankBlockchain/DDCMS-Contract>`_ 
 
     
-    - **DDCMS-Server**
+    - **DDCMS-Service**
 
     DDCMS-Service是DDCMS的后端工程，采用JAVA编写，提供和DDCMS-Contract的交互能力及账户、业务、数据目录的管理能力。地址：
 
 
-        - `github地址 <https://github.com/WeBankBlockchain/DDCMS-Server>`_ 
-        - `gitee地址 <https://gitee.com/WeBankBlockchain/DDCMS-Server>`_ 
+        - `github地址 <https://github.com/WeBankBlockchain/DDCMS-Service>`_ 
+        - `gitee地址 <https://gitee.com/WeBankBlockchain/DDCMS-Service>`_ 
 
     - **DDCMS-Front**
 
@@ -83,7 +83,7 @@ WeBankBlockchain-DDCMS-Docs 技术文档
 
    ./docs/quickstart.md
    ./docs/DDCMS-Contract/index.md
-   ./docs/DDCMS-Server/index.md
+   ./docs/DDCMS-Service/index.md
    ./docs/DDCMS-Front/index.md
 .. 
 
