@@ -90,6 +90,25 @@ jwt:
   secret: "Ok2Q0AZiRTT1N6CJ3q8ZvQOk2Q0AZiRTT1N6CJ3q8ZvQOk2Q0AZiRTT1N6CJ3q8ZvQOk2Q0AZiRTT1N6CJ3q8ZvQOk2Q0AZiRTT1N6CJ3q8ZvQ"
   expiration: 8640000
 
+system:
+  bcos-cfg: "config/config.toml"
+  bcos-group-id: "group0"
+  crypto-type: 0
+  admin-account: ${系统运营方账户}
+  admin-password: ${系统运营方密码}
+  admin-private-key: ${见证方私钥，例如11afa82f974469792aa0172931b813d4fc7dd9177f3211779efc5f955d5e480f}
+  admin-company: '系统运营方'
+  contractConfig:
+    account-contract: ${账户合约地址}
+    product-contract: ${业务合约地址}
+    dataSchema-contract: ${数据目录合约地址}
+  fileConfig:
+    file-dir: "tmp"
+swagger:
+  enabled: true
+
+
+
 auth:
   permitAllApiList:
     - /api/account/register
@@ -125,24 +144,8 @@ auth:
       - /api/product/approveProduct
     adminAuth:
       - /api/account/approveAccount
-system:
-  bcos-cfg: "config/config.toml"
-  bcos-group-id: "group0"
-  crypto-type: 0
-  admin-account: ${系统运营方账户}
-  admin-password: ${系统运营方密码}
-  admin-private-key: ${见证方私钥，例如11afa82f974469792aa0172931b813d4fc7dd9177f3211779efc5f955d5e480f}
-  admin-company: '系统运营方'
-  contractConfig:
-    account-contract: "0x1e0171e2f59d00a1851c5f8ca8af1b208f52627b"
-    product-contract: "0x2f45c1aac14531d8bd3269d7d2c9ffc342798dcb"
-    dataSchema-contract: "0xb426ac2d4436c051ae71a149621c76620733ede3"
-  fileConfig:
-    file-dir: "tmp"
-swagger:
-  enabled: true
-```
 
+```
 需要自己配置的属性包括：
 
 
@@ -153,8 +156,10 @@ swagger:
 - spring.datasource.password：数据库密码
 - system.admin-account：系统运营方登陆账户名。示例：admin
 - system.admin-password：系统运营方登陆密码。示例：admin 
-- system.admin-private-key：系统运营方私钥 。示例11afa82f974469792aa0172931b813d4fc7dd9177f3211779efc5f955d5e480f
-
+- system.admin-private-key：系统运营方私钥 。注意带上双引号，示例"11afa82f974469792aa0172931b813d4fc7dd9177f3211779efc5f955d5e480f"。
+- system.contractConfig.account-contract：账户合约地址。注意带上双引号，例如"0x1e0171e2f59d00a1851c5f8ca8af1b208f52627b"。
+- system.contractConfig.product-contract：业务合约地址。注意带上双引号，例如"0x2f45c1aac14531d8bd3269d7d2c9ffc342798dcb"。
+- system.contractConfig.dataSchema-contract：业务合约地址。注意带上双引号，注意带上双引号，例如"0xb426ac2d4436c051ae71a149621c76620733ede3"。
 
 ### 启动
 在DDCMS-Service项目根目录下执行
