@@ -88,7 +88,7 @@ mybatis:
     map-underscore-to-camel-case: true
 
 jwt:
-  secret: "Ok2Q0AZiRTT1N6CJ3q8ZvQOk2Q0AZiRTT1N6CJ3q8ZvQOk2Q0AZiRTT1N6CJ3q8ZvQOk2Q0AZiRTT1N6CJ3q8ZvQOk2Q0AZiRTT1N6CJ3q8ZvQ"
+  secret: ${jwt secret}
   expiration: 8640000
 
 system:
@@ -149,9 +149,6 @@ auth:
 ```
 需要自己配置的属性包括：
 
-
-
-
 - spring.datasource.url: 数据库连接url。示例： jdbc:mysql://localhost:3306/databrain?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
 - spring.datasource.username：数据库用户名。
 - spring.datasource.password：数据库密码
@@ -161,6 +158,7 @@ auth:
 - system.contractConfig.account-contract：账户合约地址。注意带上双引号，例如"0x1e0171e2f59d00a1851c5f8ca8af1b208f52627b"。
 - system.contractConfig.product-contract：业务合约地址。注意带上双引号，例如"0x2f45c1aac14531d8bd3269d7d2c9ffc342798dcb"。
 - system.contractConfig.dataSchema-contract：业务合约地址。注意带上双引号，注意带上双引号，例如"0xb426ac2d4436c051ae71a149621c76620733ede3"。
+- jwt.secret: 用于支持jwt，是一个base64的字符串，例如“Ok2Q0AZiRTT1N6CJ3q8ZvQOk2Q0AZiRTT1N6CJ3q8ZvQOk2Q0AZiRTT1N6CJ3q8ZvQOk2Q0AZiRTT1N6CJ3q8ZvQOk2Q0AZiRTT1N6CJ3q8ZvQ”
 
 ### 启动
 在DDCMS-Service项目根目录下执行
