@@ -20,7 +20,8 @@ git checkout origin/dev
 ```
 bash ./gradlew bootJar
 ```
-这条指令会编译代码成springboot jar包，并执行。
+这条指令会将代码编译成springboot jar包，该jar包位于dist目录。
+
 ### 链配置
 由于后端服务需要访问区块链，因此需要先配置链信息，包括证书、sdk配置，这些信息可以直接从sdk里拷贝。
 
@@ -30,7 +31,7 @@ bash ./gradlew bootJar
 cp [控制台目录]/conf/* dist/config
 ```
 
-注意，检查证书的certPath配置，确保它指向了config目录，例如：
+注意，检查dist/config/config.toml的certPath配置，确保它指向了config目录，例如：
 ```
 [cryptoMaterial]
 
