@@ -38,7 +38,7 @@ cp [控制台目录]/conf/* dist/conf
 
 
 ### 服务配置
-编辑dist/application.yml，按照下面的模板进行配置，其中打了${}的需要自己配置。
+编辑dist/conf/application.yml，按照下面的模板进行配置，其中打了${}的需要自己配置。
 ```
 server:
   port: 10880
@@ -159,6 +159,11 @@ auth:
 cd dist
 bash start.sh
 ```
-这条指令会编译代码成springboot jar包，并执行。
+这条指令会编译代码成springboot jar包，并执行。您可以检查nohup.out，如果出现类似字样表示启动成功：
 
-创建好后，可以通过http://localhost:10880/swagger-ui.html 访问其swagger页面。
+```
+...
+2023-06-08 17:25:26.884  INFO 7287 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 10880 (http) with context path ''
+2023-06-08 17:25:26.890  INFO 7287 --- [           main] com.webank.ddcms.DDCMSApplication        : Started DDCMSApplication in 4.754 seconds (JVM running for 5.115)
+
+```
