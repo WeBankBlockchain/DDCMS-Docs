@@ -28,16 +28,9 @@ bash ./gradlew bootJar
 首先拷贝控制台里的证书到DDCMS-Service工程的conf目录下:
 
 ```
-cp [控制台目录]/conf/* dist/config
+cp [控制台目录]/conf/* dist/conf
 ```
 
-注意，检查dist/config/config.toml的certPath配置，确保它指向了config目录，例如：
-```
-[cryptoMaterial]
-
-certPath = "config"                           # not conf
-
-```
 
 ### 数据库初始化
 进入数据库，依次执行resources目录下的数据库脚本：
@@ -45,7 +38,7 @@ certPath = "config"                           # not conf
 
 
 ### 服务配置
-编辑dist/config/application.yml，按照下面的模板进行配置，其中打了${}的需要自己配置。
+编辑dist/application.yml，按照下面的模板进行配置，其中打了${}的需要自己配置。
 ```
 server:
   port: 10880
@@ -97,7 +90,7 @@ system:
   crypto-type: 0
   admin-account: ${系统运营方账户}
   admin-password: ${系统运营方密码}
-  admin-private-key: ${见证方私钥，例如11afa82f974469792aa0172931b813d4fc7dd9177f3211779efc5f955d5e480f}
+  admin-private-key: ${见证方私钥，例如0x11afa82f974469792aa0172931b813d4fc7dd9177f3211779efc5f955d5e480f}
   admin-company: '系统运营方'
   contractConfig:
     account-contract: ${账户合约地址}
@@ -154,7 +147,7 @@ auth:
 - spring.datasource.password：数据库密码
 - system.admin-account：系统运营方登陆账户名。示例：admin
 - system.admin-password：系统运营方登陆密码。示例：admin 
-- system.admin-private-key：系统运营方私钥 。注意带上双引号，示例"11afa82f974469792aa0172931b813d4fc7dd9177f3211779efc5f955d5e480f"。
+- system.admin-private-key：系统运营方私钥 。注意带上双引号，示例"0x11afa82f974469792aa0172931b813d4fc7dd9177f3211779efc5f955d5e480f"。
 - system.contractConfig.account-contract：账户合约地址。注意带上双引号，例如"0x1e0171e2f59d00a1851c5f8ca8af1b208f52627b"。
 - system.contractConfig.product-contract：业务合约地址。注意带上双引号，例如"0x2f45c1aac14531d8bd3269d7d2c9ffc342798dcb"。
 - system.contractConfig.dataSchema-contract：业务合约地址。注意带上双引号，注意带上双引号，例如"0xb426ac2d4436c051ae71a149621c76620733ede3"。
