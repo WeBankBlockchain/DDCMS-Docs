@@ -34,7 +34,7 @@ cp [控制台目录]/conf/* dist/conf
 
 ### 数据库初始化
 进入数据库，依次执行resources目录下的数据库脚本：
-- scripts/db-script.sql
+- src/main/resources/scripts/db-script.sql
 
 
 ### 服务配置
@@ -85,7 +85,7 @@ jwt:
   expiration: 8640000
 
 system:
-  bcos-cfg: "config/config.toml"
+  bcos-cfg: "conf/config.toml"
   bcos-group-id: "group0"
   crypto-type: 0
   admin-account: ${系统运营方账户}
